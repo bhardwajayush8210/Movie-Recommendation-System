@@ -1,32 +1,49 @@
 # 🎬 Movie Recommendation System
 
-A content-based movie recommendation system using Machine Learning that suggests similar movies based on genres, keywords, overview, cast, and director.
+<p align="center">
+  <img src="https://img.icons8.com/color/96/000000/movie-projector.png"/>
+</p>
 
-## 🚀 Features
-- Content-based filtering
-- TF-IDF vectorization
-- Cosine similarity
-- Google Colab compatible
+[![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)](https://www.python.org/) 
+[![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange?logo=scikitlearn)](https://scikit-learn.org/) 
+[![Notebook](https://img.shields.io/badge/Google%20Colab-Notebook-red?logo=googlecolab)](https://colab.research.google.com/)
 
-## 🛠 Tools Used
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
+---
 
-## 📊 Dataset
-TMDB 5000 Movies Dataset  
-https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+## 🔹 Project Overview
 
-(Dataset not uploaded due to size and license)
+A **content-based movie recommendation system** built using **Machine Learning**.  
+It recommends movies similar to a selected movie based on:
 
-## ▶ How to Run
-1. Open Google Colab
-2. Upload the notebook
-3. Upload dataset CSV files
-4. Run all cells
-5. Call:
-```python
-recommend("Avatar")
+- Overview / Description  
+- Genres  
+- Keywords  
+- Cast & Director  
+
+**Techniques used:** TF-IDF vectorization & Cosine Similarity.
+
+---
+
+## 💡 Features
+
+- Recommend top 5 similar movies for any input movie  
+- Works entirely in **Google Colab / Jupyter Notebook**  
+- Handles missing or corrupted data  
+- Fully **internship-ready**, well-structured code  
+
+---
+
+## 🛠 Technologies Used
+
+| Technology | Purpose |
+|-----------|--------|
+| 🐍 Python | Programming & logic |
+| 📊 Pandas | Data cleaning & manipulation |
+| 🔢 NumPy | Numerical operations |
+| 🤖 Scikit-learn | TF-IDF & Cosine Similarity |
+| 📈 Matplotlib | Data visualization (optional) |
+
+---
+
+## 📂 Project Structure
 
